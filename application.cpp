@@ -18,5 +18,6 @@ int main(){
         	if(rand100(mt)%2==0) cout << "Heads" << endl,head++;
         	else cout << "Tails" << endl;
     	};
-	cout << (3-head>head?"You lost":"You won") << endl;
+	cout << "Heads: " << head << ", Tails: " << 3-head << endl;
+	cout << (3-head>head?s+" lost":s+ " won") << endl;
 }
